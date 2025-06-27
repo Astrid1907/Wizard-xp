@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // ================= CONFIG ================= //
-const token = process.env.TOKEN || '8053286625:AAFD5ogLCuNk1bmpNx8q8pcYH4UugYEM1tg';
+const token = process.env.TOKEN;
 const PORT = process.env.PORT || 3000;
 const CATEGORIES = ['Studies', 'Workout', 'Hobby', 'Skill', 'Work', 'Bonus'];
 const DAILY_XP_LIMIT = 20;
